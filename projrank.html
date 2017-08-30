@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FantasyFuss.com | Home</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/TffLogo.png">Fantasy Fuss</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Players Rank</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+   
+   
+    <section class="container">
+    <div class="sort">
+    <button class="all">ALL</button>
+    <button class="qb">QB</button>
+    <button class="rb">RB</button>
+    <button class="wr">WR</button>
+    <button class="te">TE</button>
+    <button class="def">DEF</button>
+    <button class="pk">PK</button>
+
+    </div>
+    <div class="players">
+     <script type="text/javascript">
+    
+			if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp = new XMLHttpRequest();
+			} else {// code for IE6, IE5
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.open("GET", "players.xml", false);
+			xmlhttp.send();
+			xmlDoc = xmlhttp.responseXML;
+			document.write('<table border="1" class="playerData">');
+			var x = xmlDoc.getElementsByTagName("player");
+            document.write("<tr><td>ADP</td><td>Name</td><td>Pos</td><td>Team</td><td>Bye</td><td>Times Drafted</td>");
+			for ( i = 0; i < x.length; i++) {
+				document.write("<tr><td>");
+				document.write(x[i].getElementsByTagName("adp")[0].childNodes[0].nodeValue);
+				document.write("</td><td>");
+				document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName("pos")[0].childNodes[0].nodeValue);
+                document.write("</td> <td>");
+                document.write(x[i].getElementsByTagName("team")[0].childNodes[0].nodeValue);
+                document.write("</td> <td>");
+                document.write(x[i].getElementsByTagName("bye")[0].childNodes[0].nodeValue);
+                document.write("</td> <td>");
+                document.write(x[i].getElementsByTagName("times_drafted")[0].childNodes[0].nodeValue);
+				document.write("</td> </tr>");
+			}
+			document.write("</table>");
+		
+    </script>  
+    </div>
+
+    </section>
+
+
+    <footer>
+        <div>
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/fantasyfuss/?ref=br_rs" target="_blank" title="Facebook"><span class="icon-facebook" data-icon="ea90">
+                </span></a>
+                <a href="https://twitter.com/thefantasyfuss" target="_blank" title="Twitter"><span class="icon-twitter" data-icon="ea96">
+                </span></a>
+            </div>
+        </div>
+
+        <div id="me"><p><a href="http://www.victorhorton.com" target="_blank">&copy; 2017 Victorhorton.com</a></p></div>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

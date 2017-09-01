@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/sorttable.js"></script>
 </head>
 
 <body>
@@ -36,52 +37,42 @@
             </div>
         </nav>
     </header>
-   
-   
-    <section class="container">
-    <div class="sort">
-    <button class="all">ALL</button>
-    <button class="qb">QB</button>
-    <button class="rb">RB</button>
-    <button class="wr">WR</button>
-    <button class="te">TE</button>
-    <button class="def">DEF</button>
-    <button class="pk">PK</button>
 
-    </div>
-    <div class="players">
-     <script type="text/javascript">
-    
-			if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
-				xmlhttp = new XMLHttpRequest();
-			} else {// code for IE6, IE5
-				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-			}
-			xmlhttp.open("GET", "players.xml", false);
-			xmlhttp.send();
-			xmlDoc = xmlhttp.responseXML;
-			document.write('<table border="1" class="playerData">');
-			var x = xmlDoc.getElementsByTagName("player");
-            document.write("<tr><td>ADP</td><td>Name</td><td>Pos</td><td>Team</td><td>Bye</td><td>Times Drafted</td>");
-			for ( i = 0; i < x.length; i++) {
-				document.write("<tr><td>");
-				document.write(x[i].getElementsByTagName("adp")[0].childNodes[0].nodeValue);
-				document.write("</td><td>");
-				document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
-                document.write("</td><td>");
-                document.write(x[i].getElementsByTagName("pos")[0].childNodes[0].nodeValue);
-                document.write("</td> <td>");
-                document.write(x[i].getElementsByTagName("team")[0].childNodes[0].nodeValue);
-                document.write("</td> <td>");
-                document.write(x[i].getElementsByTagName("bye")[0].childNodes[0].nodeValue);
-                document.write("</td> <td>");
+
+    <section class="container">
+        <div class="players">
+           <h1>Player Stats</h1>
+           <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Filter by Position..">
+            <script type="text/javascript">
+                
+                const xmlhttp = new XMLHttpRequest();
+
+                xmlhttp.open("GET", "players.xml", false);
+                xmlhttp.send();
+                xmlDoc = xmlhttp.responseXML;
+                document.write('<table border="1" id="myTable" class="playerData sortable">');
+                var x = xmlDoc.getElementsByTagName("player");
+                document.write("<tr><td>ADP</td><td>Name</td><td>Pos</td><td>Team</td><td>Bye</td><td>Times Drafted</td>");
+                for (i = 0; i < x.length; i++) {
+                    document.write("<tr><td>");
+                    document.write(x[i].getElementsByTagName("adp")[0].childNodes[0].nodeValue);
+                    document.write("</td><td>");
+                    document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+                    document.write("</td><td>");
+                    document.write(x[i].getElementsByTagName("pos")[0].childNodes[0].nodeValue);
+                    document.write("</td> <td>");
+                    document.write(x[i].getElementsByTagName("team")[0].childNodes[0].nodeValue);
+                    document.write("</td> <td>");
+                    document.write(x[i].getElementsByTagName("bye")[0].childNodes[0].nodeValue);
+                    document.write("</td> <td>");
+                    
                 document.write(x[i].getElementsByTagName("times_drafted")[0].childNodes[0].nodeValue);
-				document.write("</td> </tr>");
-			}
-			document.write("</table>");
-		
-    </script>  
-    </div>
+                    document.write("</td> </tr>");
+                }
+                document.write("</table>");
+
+            </script>
+        </div>
 
     </section>
 
@@ -96,11 +87,13 @@
             </div>
         </div>
 
-        <div id="me"><p><a href="http://www.victorhorton.com" target="_blank">&copy; 2017 Victorhorton.com</a></p></div>
+        <div id="me">
+            <p><a href="http://www.victorhorton.com" target="_blank">&copy; 2017 Victorhorton.com</a></p>
+        </div>
     </footer>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="bootstrap-4.0.0-beta/js/bootstrap.min.js"></script>
-    <script src="js/popper.js"></script>
     <script src="js/main.js"></script>
 </body>
 

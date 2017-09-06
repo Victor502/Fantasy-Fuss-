@@ -160,6 +160,25 @@ table.sortable thead {
     background-color: #f1f1f1;
 }
 
+
+/******************* Blog Page ******************************/
+
+.blogPost{
+    text-align: center
+}
+
+.blogPost p,
+.blogPost h3{
+    margin: 5px 0    
+}
+
+.blogImg{
+    width: 80%;
+    margin: 15px 0;
+}
+
+
+
 /******************* Media Query******************************/
 
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FantasyFuss.com | Home</title>
+    <title>FantasyFuss.com | Player Rankings</title>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -14,45 +14,47 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/TffLogo.png">Fantasy Fuss</a>
+            <a class="navbar-brand" href="#"><img class="logo" src="img/TffLogo.png">&nbsp; Fantasy Fuss</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Players Rank</a>
+                        <a class="nav-link" href="#">Blog Post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link active" href="#">Player Rankings </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Message Board (Coming Soon)</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
-
-
+    
     <section class="container">
+       
         <div class="players">
-           <h1>Player Stats</h1>
-           <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Filter by Position..">
-            <script type="text/javascript">
-                
+           <h1>Player Rankings</h1>
+           <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Filter by Position...">
+           <input type="button" value="Reset Stats" onClick="window.location.reload()" class="btn btn-primary">
+           <p class="sortByCat">Sort by category</p>
+           
+           
+            <script type="text/javascript">     
                 const xmlhttp = new XMLHttpRequest();
-
                 xmlhttp.open("GET", "players.xml", false);
                 xmlhttp.send();
                 xmlDoc = xmlhttp.responseXML;
+                
                 document.write('<table border="1" id="myTable" class="playerData sortable">');
                 var x = xmlDoc.getElementsByTagName("player");
-                document.write("<tr><td>ADP</td><td>Name</td><td>Pos</td><td>Team</td><td>Bye</td><td>Times Drafted</td>");
+                document.write("<th>ADP</th><th>Name</th><th>Pos</th><th>Team</th><th>Bye</th><th>Times Drafted</th>");
                 for (i = 0; i < x.length; i++) {
                     document.write("<tr><td>");
                     document.write(x[i].getElementsByTagName("adp")[0].childNodes[0].nodeValue);
@@ -72,8 +74,8 @@
                 document.write("</table>");
 
             </script>
+            <p><a href="https://fantasyfootballcalculator.com/" target="_blank">Provided by fantasyfootballcalculator.com</a></p>
         </div>
-
     </section>
 
 

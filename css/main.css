@@ -78,21 +78,13 @@ footer {
 
 /******************* Home page ******************************/
 
-.podCast h3{
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-/******* Home page Carousel *******/
+/******* Carousel *******/
 
 
 .carousel-item img{
     max-width: 100%;
-    height: 250px;
+    height: 275px;
 }
-
-
-
 
 /******* rss feed *******/
 
@@ -102,6 +94,21 @@ footer {
     margin: 20px auto;
     color: #242a5b;
 }
+
+
+/******* PodCast *******/
+
+.podCast h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.podCast {
+    width: 90%;
+    margin: auto;
+    color: #242a5b;
+}
+
 
 
 
@@ -165,10 +172,13 @@ table.sortable thead {
 
 .blogPost{
     text-align: center;
+    margin: auto;
 }
 
 .blogPost article{
-    margin: 25px 0;    
+    margin: 25px auto;
+    width: 90%
+    
 }
 
 .blogPost p,
@@ -193,7 +203,7 @@ table.sortable thead {
 
 @media (min-width: 720px){
     #carousel {
-        max-width: 75%;
+        width: 75%;
         margin: auto;
     }
     

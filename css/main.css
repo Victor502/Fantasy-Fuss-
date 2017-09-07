@@ -164,7 +164,11 @@ table.sortable thead {
 /******************* Blog Page ******************************/
 
 .blogPost{
-    text-align: center
+    text-align: center;
+}
+
+.blogPost article{
+    margin: 25px 0;    
 }
 
 .blogPost p,
@@ -177,6 +181,11 @@ table.sortable thead {
     margin: 15px 0;
 }
 
+.singlePodCast{
+    max-width: 90%;
+    margin: auto;
+    padding: 30px 0 0;
+}
 
 
 /******************* Media Query******************************/

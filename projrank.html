@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/TffLogo.png">&nbsp; Fantasy Fuss</a>
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/TffLogo.png">&nbsp; Fantasy Fuss</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -54,7 +54,7 @@
                 
                 document.write('<table border="1" id="myTable" class="playerData sortable">');
                 var x = xmlDoc.getElementsByTagName("player");
-                document.write("<th>ADP</th><th>Name</th><th>Pos</th><th>Team</th><th>Bye</th><th>Times Drafted</th>");
+                document.write("<th>Rank</th><th>Name</th><th>Pos</th><th>Team</th><th>Bye</th>");
                 for (i = 0; i < x.length; i++) {
                     document.write("<tr><td>");
                     document.write(x[i].getElementsByTagName("adp")[0].childNodes[0].nodeValue);
@@ -66,10 +66,7 @@
                     document.write(x[i].getElementsByTagName("team")[0].childNodes[0].nodeValue);
                     document.write("</td> <td>");
                     document.write(x[i].getElementsByTagName("bye")[0].childNodes[0].nodeValue);
-                    document.write("</td> <td>");
-                    
-                document.write(x[i].getElementsByTagName("times_drafted")[0].childNodes[0].nodeValue);
-                    document.write("</td> </tr>");
+                    document.write("</td></tr>");
                 }
                 document.write("</table>");
 

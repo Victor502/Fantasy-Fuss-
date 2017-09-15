@@ -1,962 +1,742 @@
-<?xml version='1.0'?>
+   <?xml version='1.0'?>
 <root>
 <adp_info>
 <teams>12</teams>
 <rounds>15</rounds>
-<total_drafts>667</total_drafts>
-<start_date>September 3, 2017</start_date>
-<end_date>September 6, 2017</end_date>
+<total_drafts>140</total_drafts>
+<start_date>September 6, 2017</start_date>
+<end_date>September 13, 2017</end_date>
 </adp_info>
 <adp_data>
 <player>
 <id>2297</id>
-<adp>1.01</adp>
-<adp_overall>1.3</adp_overall>
+<adp>1.02</adp>
+<adp_overall>1.6</adp_overall>
 <name>David Johnson</name>
 <pos>RB</pos>
 <team>ARI</team>
-<times_drafted>222</times_drafted>
+<times_drafted>14</times_drafted>
 <bye>8</bye>
 </player>
 <player>
 <id>1983</id>
-<adp>1.02</adp>
-<adp_overall>2.3</adp_overall>
+<adp>1.03</adp>
+<adp_overall>2.8</adp_overall>
 <name>LeVeon Bell</name>
 <pos>RB</pos>
 <team>PIT</team>
-<times_drafted>231</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1886</id>
-<adp>1.04</adp>
-<adp_overall>4.2</adp_overall>
-<name>Antonio Brown</name>
-<pos>WR</pos>
-<team>PIT</team>
-<times_drafted>136</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2144</id>
-<adp>1.06</adp>
-<adp_overall>5.9</adp_overall>
-<name>Devonta Freeman</name>
-<pos>RB</pos>
-<team>ATL</team>
-<times_drafted>114</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1645</id>
-<adp>1.06</adp>
-<adp_overall>6.0</adp_overall>
-<name>LeSean McCoy</name>
-<pos>RB</pos>
-<team>BUF</team>
-<times_drafted>122</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1796</id>
-<adp>1.07</adp>
-<adp_overall>6.5</adp_overall>
-<name>Julio Jones</name>
-<pos>WR</pos>
-<team>ATL</team>
-<times_drafted>197</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2113</id>
-<adp>1.07</adp>
-<adp_overall>6.6</adp_overall>
-<name>Odell Beckham Jr</name>
-<pos>WR</pos>
-<team>NYG</team>
-<times_drafted>167</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2343</id>
-<adp>1.08</adp>
-<adp_overall>7.8</adp_overall>
-<name>Ezekiel Elliott</name>
-<pos>RB</pos>
-<team>DAL</team>
-<times_drafted>127</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2282</id>
-<adp>1.08</adp>
-<adp_overall>7.8</adp_overall>
-<name>Melvin Gordon</name>
-<pos>RB</pos>
-<team>LAC</team>
-<times_drafted>175</times_drafted>
+<times_drafted>15</times_drafted>
 <bye>9</bye>
 </player>
 <player>
 <id>2111</id>
-<adp>1.09</adp>
-<adp_overall>9.1</adp_overall>
+<adp>1.07</adp>
+<adp_overall>7.5</adp_overall>
 <name>Mike Evans</name>
 <pos>WR</pos>
 <team>TB</team>
-<times_drafted>192</times_drafted>
+<times_drafted>13</times_drafted>
 <bye>11</bye>
 </player>
 <player>
-<id>2284</id>
+<id>1886</id>
+<adp>1.08</adp>
+<adp_overall>8.3</adp_overall>
+<name>Antonio Brown</name>
+<pos>WR</pos>
+<team>PIT</team>
+<times_drafted>12</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>1796</id>
+<adp>1.09</adp>
+<adp_overall>8.7</adp_overall>
+<name>Julio Jones</name>
+<pos>WR</pos>
+<team>ATL</team>
+<times_drafted>9</times_drafted>
+<bye>5</bye>
+</player>
+<player>
+<id>2282</id>
+<adp>1.10</adp>
+<adp_overall>9.6</adp_overall>
+<name>Melvin Gordon</name>
+<pos>RB</pos>
+<team>LAC</team>
+<times_drafted>7</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>2113</id>
 <adp>1.11</adp>
 <adp_overall>11.4</adp_overall>
-<name>Jay Ajayi</name>
-<pos>RB</pos>
-<team>MIA</team>
-<times_drafted>159</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1795</id>
-<adp>1.12</adp>
-<adp_overall>11.7</adp_overall>
-<name>A.J. Green</name>
+<name>Odell Beckham Jr</name>
 <pos>WR</pos>
-<team>CIN</team>
-<times_drafted>165</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1350</id>
-<adp>2.01</adp>
-<adp_overall>12.8</adp_overall>
-<name>Jordy Nelson</name>
-<pos>WR</pos>
-<team>GB</team>
-<times_drafted>161</times_drafted>
+<team>NYG</team>
+<times_drafted>7</times_drafted>
 <bye>8</bye>
 </player>
 <player>
 <id>1819</id>
-<adp>2.02</adp>
-<adp_overall>13.9</adp_overall>
+<adp>1.12</adp>
+<adp_overall>11.5</adp_overall>
 <name>DeMarco Murray</name>
 <pos>RB</pos>
 <team>TEN</team>
-<times_drafted>167</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>8</bye>
 </player>
 <player>
-<id>2384</id>
+<id>1004</id>
 <adp>2.03</adp>
-<adp_overall>14.8</adp_overall>
-<name>Jordan Howard</name>
-<pos>RB</pos>
-<team>CHI</team>
-<times_drafted>154</times_drafted>
-<bye>9</bye>
+<adp_overall>15.0</adp_overall>
+<name>Aaron Rodgers</name>
+<pos>QB</pos>
+<team>GB</team>
+<times_drafted>8</times_drafted>
+<bye>8</bye>
 </player>
 <player>
-<id>2357</id>
+<id>2450</id>
 <adp>2.04</adp>
 <adp_overall>15.9</adp_overall>
-<name>Michael Thomas</name>
-<pos>WR</pos>
-<team>NO</team>
-<times_drafted>204</times_drafted>
-<bye>5</bye>
+<name>Kareem Hunt</name>
+<pos>RB</pos>
+<team>KC</team>
+<times_drafted>22</times_drafted>
+<bye>10</bye>
 </player>
 <player>
 <id>2280</id>
 <adp>2.04</adp>
-<adp_overall>16.5</adp_overall>
+<adp_overall>16.0</adp_overall>
 <name>Todd Gurley</name>
 <pos>RB</pos>
 <team>LAR</team>
-<times_drafted>165</times_drafted>
+<times_drafted>7</times_drafted>
 <bye>8</bye>
 </player>
 <player>
-<id>1740</id>
-<adp>2.06</adp>
-<adp_overall>18.2</adp_overall>
-<name>Rob Gronkowski</name>
-<pos>TE</pos>
-<team>NE</team>
-<times_drafted>133</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1004</id>
-<adp>2.07</adp>
-<adp_overall>19.0</adp_overall>
-<name>Aaron Rodgers</name>
-<pos>QB</pos>
-<team>GB</team>
-<times_drafted>124</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>1727</id>
-<adp>2.08</adp>
-<adp_overall>19.6</adp_overall>
-<name>Dez Bryant</name>
+<id>2357</id>
+<adp>2.05</adp>
+<adp_overall>16.8</adp_overall>
+<name>Michael Thomas</name>
 <pos>WR</pos>
-<team>DAL</team>
-<times_drafted>162</times_drafted>
-<bye>6</bye>
+<team>NO</team>
+<times_drafted>5</times_drafted>
+<bye>5</bye>
 </player>
 <player>
-<id>2114</id>
-<adp>2.09</adp>
-<adp_overall>20.5</adp_overall>
-<name>Brandin Cooks</name>
-<pos>WR</pos>
-<team>NE</team>
-<times_drafted>156</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2450</id>
-<adp>2.10</adp>
-<adp_overall>22.2</adp_overall>
-<name>Kareem Hunt</name>
+<id>2343</id>
+<adp>2.05</adp>
+<adp_overall>17.3</adp_overall>
+<name>Ezekiel Elliott</name>
 <pos>RB</pos>
-<team>KC</team>
-<times_drafted>236</times_drafted>
-<bye>10</bye>
+<team>DAL</team>
+<times_drafted>21</times_drafted>
+<bye>6</bye>
 </player>
 <player>
 <id>2277</id>
-<adp>2.10</adp>
-<adp_overall>22.3</adp_overall>
+<adp>2.09</adp>
+<adp_overall>20.7</adp_overall>
 <name>Amari Cooper</name>
 <pos>WR</pos>
 <team>OAK</team>
-<times_drafted>183</times_drafted>
+<times_drafted>10</times_drafted>
 <bye>10</bye>
-</player>
-<player>
-<id>2433</id>
-<adp>2.11</adp>
-<adp_overall>23.4</adp_overall>
-<name>Leonard Fournette</name>
-<pos>RB</pos>
-<team>JAC</team>
-<times_drafted>153</times_drafted>
-<bye>8</bye>
 </player>
 <player>
 <id>1927</id>
-<adp>2.12</adp>
-<adp_overall>23.7</adp_overall>
+<adp>2.09</adp>
+<adp_overall>21.3</adp_overall>
 <name>Doug Baldwin</name>
 <pos>WR</pos>
 <team>SEA</team>
-<times_drafted>188</times_drafted>
+<times_drafted>16</times_drafted>
 <bye>6</bye>
 </player>
 <player>
-<id>2219</id>
-<adp>3.01</adp>
-<adp_overall>25.4</adp_overall>
-<name>Isaiah Crowell</name>
-<pos>RB</pos>
-<team>CLE</team>
-<times_drafted>167</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>119</id>
-<adp>3.03</adp>
-<adp_overall>26.5</adp_overall>
-<name>Tom Brady</name>
-<pos>QB</pos>
-<team>NE</team>
-<times_drafted>155</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>740</id>
-<adp>3.03</adp>
-<adp_overall>26.7</adp_overall>
-<name>Marshawn Lynch</name>
-<pos>RB</pos>
-<team>OAK</team>
-<times_drafted>146</times_drafted>
-<bye>10</bye>
+<id>1350</id>
+<adp>2.10</adp>
+<adp_overall>22.3</adp_overall>
+<name>Jordy Nelson</name>
+<pos>WR</pos>
+<team>GB</team>
+<times_drafted>6</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2434</id>
-<adp>3.03</adp>
-<adp_overall>26.9</adp_overall>
+<adp>2.12</adp>
+<adp_overall>24.1</adp_overall>
 <name>Christian McCaffrey</name>
 <pos>RB</pos>
 <team>CAR</team>
-<times_drafted>190</times_drafted>
+<times_drafted>10</times_drafted>
 <bye>11</bye>
 </player>
 <player>
-<id>2432</id>
-<adp>3.04</adp>
-<adp_overall>28.2</adp_overall>
-<name>Dalvin Cook</name>
-<pos>RB</pos>
-<team>MIN</team>
-<times_drafted>206</times_drafted>
+<id>2114</id>
+<adp>2.12</adp>
+<adp_overall>24.2</adp_overall>
+<name>Brandin Cooks</name>
+<pos>WR</pos>
+<team>NE</team>
+<times_drafted>6</times_drafted>
 <bye>9</bye>
 </player>
 <player>
+<id>2433</id>
+<adp>2.12</adp>
+<adp_overall>24.2</adp_overall>
+<name>Leonard Fournette</name>
+<pos>RB</pos>
+<team>JAC</team>
+<times_drafted>9</times_drafted>
+<bye>8</bye>
+</player>
+<player>
+<id>119</id>
+<adp>3.01</adp>
+<adp_overall>24.9</adp_overall>
+<name>Tom Brady</name>
+<pos>QB</pos>
+<team>NE</team>
+<times_drafted>7</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>2432</id>
+<adp>3.03</adp>
+<adp_overall>26.8</adp_overall>
+<name>Dalvin Cook</name>
+<pos>RB</pos>
+<team>MIN</team>
+<times_drafted>12</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>127</id>
+<adp>3.03</adp>
+<adp_overall>27.3</adp_overall>
+<name>Drew Brees</name>
+<pos>QB</pos>
+<team>NO</team>
+<times_drafted>6</times_drafted>
+<bye>5</bye>
+</player>
+<player>
 <id>1992</id>
-<adp>3.06</adp>
-<adp_overall>29.6</adp_overall>
+<adp>3.04</adp>
+<adp_overall>27.6</adp_overall>
 <name>Keenan Allen</name>
 <pos>WR</pos>
 <team>LAC</team>
-<times_drafted>166</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>9</bye>
 </player>
 <player>
 <id>1908</id>
-<adp>3.07</adp>
-<adp_overall>31.2</adp_overall>
+<adp>3.04</adp>
+<adp_overall>28.0</adp_overall>
 <name>Lamar Miller</name>
 <pos>RB</pos>
 <team>HOU</team>
-<times_drafted>150</times_drafted>
+<times_drafted>11</times_drafted>
 <bye>7</bye>
+</player>
+<player>
+<id>740</id>
+<adp>3.06</adp>
+<adp_overall>29.7</adp_overall>
+<name>Marshawn Lynch</name>
+<pos>RB</pos>
+<team>OAK</team>
+<times_drafted>9</times_drafted>
+<bye>10</bye>
+</player>
+<player>
+<id>2129</id>
+<adp>3.07</adp>
+<adp_overall>31.3</adp_overall>
+<name>Carlos Hyde</name>
+<pos>RB</pos>
+<team>SF</team>
+<times_drafted>8</times_drafted>
+<bye>11</bye>
+</player>
+<player>
+<id>2116</id>
+<adp>3.08</adp>
+<adp_overall>31.7</adp_overall>
+<name>Kelvin Benjamin</name>
+<pos>WR</pos>
+<team>CAR</team>
+<times_drafted>12</times_drafted>
+<bye>11</bye>
 </player>
 <player>
 <id>1975</id>
 <adp>3.08</adp>
-<adp_overall>32.3</adp_overall>
+<adp_overall>32.2</adp_overall>
 <name>DeAndre Hopkins</name>
 <pos>WR</pos>
 <team>HOU</team>
-<times_drafted>161</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>7</bye>
 </player>
 <player>
-<id>2129</id>
-<adp>3.08</adp>
-<adp_overall>32.4</adp_overall>
-<name>Carlos Hyde</name>
-<pos>RB</pos>
-<team>SF</team>
-<times_drafted>176</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1935</id>
-<adp>3.09</adp>
-<adp_overall>32.9</adp_overall>
-<name>T.Y. Hilton</name>
+<id>2125</id>
+<adp>3.12</adp>
+<adp_overall>36.3</adp_overall>
+<name>Davante Adams</name>
 <pos>WR</pos>
-<team>IND</team>
-<times_drafted>120</times_drafted>
-<bye>11</bye>
+<team>GB</team>
+<times_drafted>10</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2317</id>
-<adp>3.11</adp>
-<adp_overall>35.2</adp_overall>
+<adp>4.01</adp>
+<adp_overall>36.6</adp_overall>
 <name>Ty Montgomery</name>
 <pos>RB</pos>
 <team>GB</team>
-<times_drafted>169</times_drafted>
+<times_drafted>7</times_drafted>
 <bye>8</bye>
 </player>
 <player>
 <id>1868</id>
-<adp>3.12</adp>
-<adp_overall>35.9</adp_overall>
+<adp>4.03</adp>
+<adp_overall>38.8</adp_overall>
 <name>Terrelle Pryor</name>
 <pos>WR</pos>
 <team>WAS</team>
-<times_drafted>129</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>5</bye>
-</player>
-<player>
-<id>127</id>
-<adp>4.02</adp>
-<adp_overall>37.7</adp_overall>
-<name>Drew Brees</name>
-<pos>QB</pos>
-<team>NO</team>
-<times_drafted>105</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2438</id>
-<adp>4.02</adp>
-<adp_overall>38.1</adp_overall>
-<name>Joe Mixon</name>
-<pos>RB</pos>
-<team>CIN</team>
-<times_drafted>139</times_drafted>
-<bye>6</bye>
 </player>
 <player>
 <id>1735</id>
-<adp>4.04</adp>
-<adp_overall>39.7</adp_overall>
+<adp>4.03</adp>
+<adp_overall>39.1</adp_overall>
 <name>Demaryius Thomas</name>
 <pos>WR</pos>
 <team>DEN</team>
-<times_drafted>132</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2116</id>
-<adp>4.04</adp>
-<adp_overall>39.7</adp_overall>
-<name>Kelvin Benjamin</name>
-<pos>WR</pos>
-<team>CAR</team>
-<times_drafted>200</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1989</id>
-<adp>4.04</adp>
-<adp_overall>40.5</adp_overall>
-<name>Travis Kelce</name>
-<pos>TE</pos>
-<team>KC</team>
-<times_drafted>134</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1918</id>
-<adp>4.06</adp>
-<adp_overall>41.6</adp_overall>
-<name>Alshon Jeffery</name>
-<pos>WR</pos>
-<team>PHI</team>
-<times_drafted>152</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2071</id>
-<adp>4.07</adp>
-<adp_overall>43.1</adp_overall>
-<name>CJ Anderson</name>
-<pos>RB</pos>
-<team>DEN</team>
-<times_drafted>184</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2150</id>
-<adp>4.07</adp>
-<adp_overall>43.4</adp_overall>
-<name>Martavis Bryant</name>
-<pos>WR</pos>
-<team>PIT</team>
-<times_drafted>200</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1907</id>
-<adp>4.10</adp>
-<adp_overall>45.7</adp_overall>
-<name>Doug Martin</name>
-<pos>RB</pos>
-<team>TB</team>
-<times_drafted>160</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2125</id>
-<adp>4.10</adp>
-<adp_overall>45.9</adp_overall>
-<name>Davante Adams</name>
-<pos>WR</pos>
-<team>GB</team>
-<times_drafted>167</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2390</id>
-<adp>4.11</adp>
-<adp_overall>46.7</adp_overall>
-<name>Tyreek Hill</name>
-<pos>WR</pos>
-<team>KC</team>
-<times_drafted>166</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2293</id>
-<adp>4.11</adp>
-<adp_overall>47.4</adp_overall>
-<name>Ameer Abdullah</name>
-<pos>RB</pos>
-<team>DET</team>
-<times_drafted>157</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>1646</id>
-<adp>4.12</adp>
-<adp_overall>48.2</adp_overall>
-<name>Michael Crabtree</name>
-<pos>WR</pos>
-<team>OAK</team>
-<times_drafted>159</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2130</id>
-<adp>5.02</adp>
-<adp_overall>49.7</adp_overall>
-<name>Allen Robinson</name>
-<pos>WR</pos>
-<team>JAC</team>
-<times_drafted>119</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>890</id>
-<adp>5.03</adp>
-<adp_overall>51.3</adp_overall>
-<name>Greg Olsen</name>
-<pos>TE</pos>
-<team>CAR</team>
-<times_drafted>113</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1800</id>
-<adp>5.04</adp>
-<adp_overall>52.1</adp_overall>
-<name>Mark Ingram</name>
-<pos>RB</pos>
-<team>NO</team>
-<times_drafted>108</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2279</id>
-<adp>5.05</adp>
-<adp_overall>53.0</adp_overall>
-<name>DeVante Parker</name>
-<pos>WR</pos>
-<team>MIA</team>
-<times_drafted>182</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1995</id>
-<adp>5.05</adp>
-<adp_overall>53.1</adp_overall>
-<name>Jordan Reed</name>
-<pos>TE</pos>
-<team>WAS</team>
-<times_drafted>93</times_drafted>
+<times_drafted>9</times_drafted>
 <bye>5</bye>
 </player>
 <player>
 <id>1342</id>
-<adp>5.06</adp>
-<adp_overall>53.9</adp_overall>
+<adp>4.03</adp>
+<adp_overall>39.4</adp_overall>
 <name>Matt Ryan</name>
 <pos>QB</pos>
 <team>ATL</team>
-<times_drafted>91</times_drafted>
+<times_drafted>9</times_drafted>
 <bye>5</bye>
 </player>
 <player>
-<id>2017</id>
-<adp>5.06</adp>
-<adp_overall>54.1</adp_overall>
-<name>Mike Gillislee</name>
+<id>2438</id>
+<adp>4.04</adp>
+<adp_overall>39.6</adp_overall>
+<name>Joe Mixon</name>
 <pos>RB</pos>
-<team>NE</team>
-<times_drafted>129</times_drafted>
-<bye>9</bye>
+<team>CIN</team>
+<times_drafted>5</times_drafted>
+<bye>6</bye>
 </player>
 <player>
-<id>1867</id>
-<adp>5.07</adp>
-<adp_overall>55.4</adp_overall>
-<name>Bilal Powell</name>
+<id>2071</id>
+<adp>4.04</adp>
+<adp_overall>40.0</adp_overall>
+<name>CJ Anderson</name>
 <pos>RB</pos>
-<team>NYJ</team>
-<times_drafted>161</times_drafted>
+<team>DEN</team>
+<times_drafted>5</times_drafted>
+<bye>5</bye>
+</player>
+<player>
+<id>2390</id>
+<adp>4.06</adp>
+<adp_overall>42.4</adp_overall>
+<name>Tyreek Hill</name>
+<pos>WR</pos>
+<team>KC</team>
+<times_drafted>19</times_drafted>
+<bye>10</bye>
+</player>
+<player>
+<id>1918</id>
+<adp>4.07</adp>
+<adp_overall>42.6</adp_overall>
+<name>Alshon Jeffery</name>
+<pos>WR</pos>
+<team>PHI</team>
+<times_drafted>5</times_drafted>
+<bye>10</bye>
+</player>
+<player>
+<id>1907</id>
+<adp>4.08</adp>
+<adp_overall>44.0</adp_overall>
+<name>Doug Martin</name>
+<pos>RB</pos>
+<team>TB</team>
+<times_drafted>9</times_drafted>
 <bye>11</bye>
 </player>
 <player>
+<id>2150</id>
+<adp>4.10</adp>
+<adp_overall>45.9</adp_overall>
+<name>Martavis Bryant</name>
+<pos>WR</pos>
+<team>PIT</team>
+<times_drafted>8</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>890</id>
+<adp>4.12</adp>
+<adp_overall>48.4</adp_overall>
+<name>Greg Olsen</name>
+<pos>TE</pos>
+<team>CAR</team>
+<times_drafted>8</times_drafted>
+<bye>11</bye>
+</player>
+<player>
+<id>1646</id>
+<adp>5.01</adp>
+<adp_overall>49.0</adp_overall>
+<name>Michael Crabtree</name>
+<pos>WR</pos>
+<team>OAK</team>
+<times_drafted>7</times_drafted>
+<bye>10</bye>
+</player>
+<player>
+<id>2293</id>
+<adp>5.01</adp>
+<adp_overall>49.0</adp_overall>
+<name>Ameer Abdullah</name>
+<pos>RB</pos>
+<team>DET</team>
+<times_drafted>5</times_drafted>
+<bye>7</bye>
+</player>
+<player>
+<id>1904</id>
+<adp>5.03</adp>
+<adp_overall>51.1</adp_overall>
+<name>Russell Wilson</name>
+<pos>QB</pos>
+<team>SEA</team>
+<times_drafted>7</times_drafted>
+<bye>6</bye>
+</player>
+<player>
+<id>2130</id>
+<adp>5.03</adp>
+<adp_overall>51.4</adp_overall>
+<name>Allen Robinson</name>
+<pos>WR</pos>
+<team>JAC</team>
+<times_drafted>5</times_drafted>
+<bye>8</bye>
+</player>
+<player>
+<id>2017</id>
+<adp>5.04</adp>
+<adp_overall>52.4</adp_overall>
+<name>Mike Gillislee</name>
+<pos>RB</pos>
+<team>NE</team>
+<times_drafted>10</times_drafted>
+<bye>9</bye>
+</player>
+<player>
 <id>374</id>
-<adp>5.08</adp>
-<adp_overall>56.2</adp_overall>
+<adp>5.05</adp>
+<adp_overall>52.6</adp_overall>
 <name>Larry Fitzgerald</name>
 <pos>WR</pos>
 <team>ARI</team>
-<times_drafted>167</times_drafted>
+<times_drafted>17</times_drafted>
 <bye>8</bye>
 </player>
 <player>
 <id>1747</id>
-<adp>5.09</adp>
-<adp_overall>56.5</adp_overall>
+<adp>5.05</adp>
+<adp_overall>53.1</adp_overall>
 <name>Jimmy Graham</name>
 <pos>TE</pos>
 <team>SEA</team>
-<times_drafted>121</times_drafted>
+<times_drafted>8</times_drafted>
 <bye>6</bye>
+</player>
+<player>
+<id>2279</id>
+<adp>5.06</adp>
+<adp_overall>54.0</adp_overall>
+<name>DeVante Parker</name>
+<pos>WR</pos>
+<team>MIA</team>
+<times_drafted>5</times_drafted>
+<bye>11</bye>
 </player>
 <player>
 <id>1730</id>
 <adp>5.10</adp>
-<adp_overall>58.0</adp_overall>
+<adp_overall>57.7</adp_overall>
 <name>Golden Tate</name>
 <pos>WR</pos>
 <team>DET</team>
-<times_drafted>119</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>7</bye>
 </player>
 <player>
 <id>925</id>
 <adp>5.12</adp>
-<adp_overall>59.7</adp_overall>
+<adp_overall>60.0</adp_overall>
 <name>Adrian Peterson</name>
 <pos>RB</pos>
 <team>NO</team>
-<times_drafted>119</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>5</bye>
 </player>
 <player>
-<id>1904</id>
+<id>755</id>
 <adp>6.01</adp>
-<adp_overall>60.9</adp_overall>
-<name>Russell Wilson</name>
-<pos>QB</pos>
-<team>SEA</team>
-<times_drafted>104</times_drafted>
-<bye>6</bye>
+<adp_overall>60.5</adp_overall>
+<name>Brandon Marshall</name>
+<pos>WR</pos>
+<team>NYG</team>
+<times_drafted>6</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2429</id>
-<adp>6.02</adp>
-<adp_overall>61.8</adp_overall>
+<adp>6.04</adp>
+<adp_overall>63.7</adp_overall>
 <name>Rob Kelley</name>
 <pos>RB</pos>
 <team>WAS</team>
-<times_drafted>173</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>5</bye>
 </player>
 <player>
 <id>2316</id>
-<adp>6.03</adp>
-<adp_overall>62.6</adp_overall>
+<adp>6.04</adp>
+<adp_overall>64.2</adp_overall>
 <name>Stefon Diggs</name>
 <pos>WR</pos>
 <team>MIN</team>
-<times_drafted>153</times_drafted>
+<times_drafted>10</times_drafted>
 <bye>9</bye>
 </player>
 <player>
-<id>755</id>
-<adp>6.05</adp>
-<adp_overall>65.4</adp_overall>
-<name>Brandon Marshall</name>
-<pos>WR</pos>
-<team>NYG</team>
-<times_drafted>123</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2350</id>
-<adp>6.06</adp>
-<adp_overall>65.5</adp_overall>
-<name>Derrick Henry</name>
-<pos>RB</pos>
-<team>TEN</team>
-<times_drafted>133</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>1974</id>
-<adp>6.08</adp>
-<adp_overall>67.8</adp_overall>
-<name>Tyler Eifert</name>
-<pos>TE</pos>
-<team>CIN</team>
-<times_drafted>104</times_drafted>
-<bye>6</bye>
-</player>
-<player>
 <id>2118</id>
-<adp>6.08</adp>
-<adp_overall>67.8</adp_overall>
+<adp>6.05</adp>
+<adp_overall>64.8</adp_overall>
 <name>Derek Carr</name>
 <pos>QB</pos>
 <team>OAK</team>
-<times_drafted>88</times_drafted>
+<times_drafted>13</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>2109</id>
-<adp>6.09</adp>
-<adp_overall>68.5</adp_overall>
-<name>Sammy Watkins</name>
-<pos>WR</pos>
-<team>LAR</team>
-<times_drafted>134</times_drafted>
+<id>2276</id>
+<adp>6.06</adp>
+<adp_overall>66.2</adp_overall>
+<name>Marcus Mariota</name>
+<pos>QB</pos>
+<team>TEN</team>
+<times_drafted>5</times_drafted>
 <bye>8</bye>
 </player>
 <player>
-<id>1341</id>
-<adp>6.09</adp>
-<adp_overall>69.0</adp_overall>
-<name>Darren McFadden</name>
-<pos>RB</pos>
-<team>DAL</team>
-<times_drafted>78</times_drafted>
-<bye>6</bye>
+<id>2109</id>
+<adp>6.06</adp>
+<adp_overall>66.3</adp_overall>
+<name>Sammy Watkins</name>
+<pos>WR</pos>
+<team>LAR</team>
+<times_drafted>9</times_drafted>
+<bye>8</bye>
 </player>
 <player>
-<id>2331</id>
-<adp>6.09</adp>
-<adp_overall>69.1</adp_overall>
-<name>Jamison Crowder</name>
-<pos>WR</pos>
-<team>WAS</team>
-<times_drafted>157</times_drafted>
-<bye>5</bye>
+<id>2383</id>
+<adp>6.07</adp>
+<adp_overall>66.8</adp_overall>
+<name>Paul Perkins</name>
+<pos>RB</pos>
+<team>NYG</team>
+<times_drafted>5</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2132</id>
-<adp>6.11</adp>
-<adp_overall>71.2</adp_overall>
+<adp>6.07</adp>
+<adp_overall>67.2</adp_overall>
 <name>Jarvis Landry</name>
 <pos>WR</pos>
 <team>MIA</team>
-<times_drafted>154</times_drafted>
+<times_drafted>13</times_drafted>
 <bye>11</bye>
 </player>
 <player>
 <id>2289</id>
-<adp>6.12</adp>
-<adp_overall>72.3</adp_overall>
+<adp>6.10</adp>
+<adp_overall>69.7</adp_overall>
 <name>Tevin Coleman</name>
 <pos>RB</pos>
 <team>ATL</team>
-<times_drafted>163</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2276</id>
-<adp>7.01</adp>
-<adp_overall>72.9</adp_overall>
-<name>Marcus Mariota</name>
-<pos>QB</pos>
-<team>TEN</team>
-<times_drafted>109</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2275</id>
-<adp>7.02</adp>
-<adp_overall>74.4</adp_overall>
-<name>Jameis Winston</name>
-<pos>QB</pos>
-<team>TB</team>
-<times_drafted>101</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1364</id>
-<adp>7.03</adp>
-<adp_overall>74.6</adp_overall>
-<name>Martellus Bennett</name>
-<pos>TE</pos>
-<team>GB</team>
-<times_drafted>79</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>1781</id>
-<adp>7.03</adp>
-<adp_overall>75.5</adp_overall>
-<name>LeGarrette Blount</name>
-<pos>RB</pos>
-<team>PHI</team>
-<times_drafted>90</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2383</id>
-<adp>7.04</adp>
-<adp_overall>76.1</adp_overall>
-<name>Paul Perkins</name>
-<pos>RB</pos>
-<team>NYG</team>
-<times_drafted>151</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>1762</id>
-<adp>7.05</adp>
-<adp_overall>77.2</adp_overall>
-<name>Emmanuel Sanders</name>
-<pos>WR</pos>
-<team>DEN</team>
-<times_drafted>128</times_drafted>
+<times_drafted>9</times_drafted>
 <bye>5</bye>
 </player>
 <player>
 <id>2139</id>
-<adp>7.06</adp>
-<adp_overall>78.4</adp_overall>
+<adp>7.04</adp>
+<adp_overall>76.3</adp_overall>
 <name>Terrance West</name>
 <pos>RB</pos>
 <team>BAL</team>
-<times_drafted>180</times_drafted>
+<times_drafted>10</times_drafted>
 <bye>10</bye>
 </player>
 <player>
 <id>1707</id>
-<adp>7.08</adp>
-<adp_overall>79.6</adp_overall>
+<adp>7.05</adp>
+<adp_overall>76.8</adp_overall>
 <name>Pierre Garcon</name>
 <pos>WR</pos>
 <team>SF</team>
-<times_drafted>175</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>11</bye>
 </player>
 <player>
-<id>1201</id>
-<adp>7.08</adp>
-<adp_overall>79.8</adp_overall>
-<name>Delanie Walker</name>
-<pos>TE</pos>
+<id>1762</id>
+<adp>7.06</adp>
+<adp_overall>78.1</adp_overall>
+<name>Emmanuel Sanders</name>
+<pos>WR</pos>
+<team>DEN</team>
+<times_drafted>11</times_drafted>
+<bye>5</bye>
+</player>
+<player>
+<id>1764</id>
+<adp>7.06</adp>
+<adp_overall>78.2</adp_overall>
+<name>Eric Decker</name>
+<pos>WR</pos>
 <team>TEN</team>
-<times_drafted>78</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>8</bye>
 </player>
 <player>
 <id>1794</id>
-<adp>7.08</adp>
-<adp_overall>80.1</adp_overall>
+<adp>7.09</adp>
+<adp_overall>80.6</adp_overall>
 <name>Cam Newton</name>
 <pos>QB</pos>
 <team>CAR</team>
-<times_drafted>99</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>11</bye>
 </player>
 <player>
-<id>437</id>
+<id>1201</id>
 <adp>7.10</adp>
-<adp_overall>82.2</adp_overall>
-<name>Frank Gore</name>
-<pos>RB</pos>
-<team>IND</team>
-<times_drafted>131</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1978</id>
-<adp>7.10</adp>
-<adp_overall>82.3</adp_overall>
-<name>Zach Ertz</name>
+<adp_overall>82.4</adp_overall>
+<name>Delanie Walker</name>
 <pos>TE</pos>
-<team>PHI</team>
-<times_drafted>102</times_drafted>
-<bye>10</bye>
+<team>TEN</team>
+<times_drafted>5</times_drafted>
+<bye>8</bye>
 </player>
 <player>
-<id>1357</id>
-<adp>8.01</adp>
-<adp_overall>84.8</adp_overall>
-<name>DeSean Jackson</name>
-<pos>WR</pos>
+<id>1827</id>
+<adp>7.11</adp>
+<adp_overall>83.0</adp_overall>
+<name>Jacquizz Rodgers</name>
+<pos>RB</pos>
 <team>TB</team>
-<times_drafted>149</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>11</bye>
 </player>
 <player>
-<id>1902</id>
+<id>1364</id>
 <adp>8.01</adp>
-<adp_overall>85.0</adp_overall>
-<name>Kirk Cousins</name>
-<pos>QB</pos>
-<team>WAS</team>
-<times_drafted>105</times_drafted>
-<bye>5</bye>
+<adp_overall>85.3</adp_overall>
+<name>Martellus Bennett</name>
+<pos>TE</pos>
+<team>GB</team>
+<times_drafted>7</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2337</id>
-<adp>8.01</adp>
-<adp_overall>85.0</adp_overall>
+<adp>8.02</adp>
+<adp_overall>85.5</adp_overall>
 <name>Thomas Rawls</name>
 <pos>RB</pos>
 <team>SEA</team>
-<times_drafted>140</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>6</bye>
-</player>
-<player>
-<id>1764</id>
-<adp>8.04</adp>
-<adp_overall>87.6</adp_overall>
-<name>Eric Decker</name>
-<pos>WR</pos>
-<team>TEN</team>
-<times_drafted>103</times_drafted>
-<bye>8</bye>
 </player>
 <player>
 <id>1776</id>
 <adp>8.05</adp>
-<adp_overall>88.7</adp_overall>
+<adp_overall>88.9</adp_overall>
 <name>Danny Woodhead</name>
 <pos>RB</pos>
 <team>BAL</team>
-<times_drafted>98</times_drafted>
+<times_drafted>7</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>1799</id>
+<id>1806</id>
 <adp>8.05</adp>
-<adp_overall>88.9</adp_overall>
-<name>Kyle Rudolph</name>
-<pos>TE</pos>
-<team>MIN</team>
-<times_drafted>96</times_drafted>
-<bye>9</bye>
+<adp_overall>89.0</adp_overall>
+<name>Randall Cobb</name>
+<pos>WR</pos>
+<team>GB</team>
+<times_drafted>8</times_drafted>
+<bye>8</bye>
 </player>
 <player>
 <id>2076</id>
-<adp>8.06</adp>
-<adp_overall>89.7</adp_overall>
+<adp>8.05</adp>
+<adp_overall>89.4</adp_overall>
 <name>Chris Hogan</name>
 <pos>WR</pos>
 <team>NE</team>
-<times_drafted>211</times_drafted>
+<times_drafted>9</times_drafted>
 <bye>9</bye>
 </player>
 <player>
-<id>2223</id>
+<id>1357</id>
 <adp>8.06</adp>
-<adp_overall>90.0</adp_overall>
-<name>Willie Snead</name>
+<adp_overall>90.1</adp_overall>
+<name>DeSean Jackson</name>
 <pos>WR</pos>
-<team>NO</team>
-<times_drafted>83</times_drafted>
-<bye>5</bye>
+<team>TB</team>
+<times_drafted>13</times_drafted>
+<bye>11</bye>
 </player>
 <player>
-<id>1987</id>
+<id>1897</id>
 <adp>8.07</adp>
-<adp_overall>90.7</adp_overall>
-<name>Eddie Lacy</name>
-<pos>RB</pos>
-<team>SEA</team>
-<times_drafted>89</times_drafted>
-<bye>6</bye>
+<adp_overall>90.6</adp_overall>
+<name>Andrew Luck</name>
+<pos>QB</pos>
+<team>IND</team>
+<times_drafted>5</times_drafted>
+<bye>11</bye>
 </player>
 <player>
 <id>1344</id>
@@ -965,1028 +745,358 @@
 <name>Jonathan Stewart</name>
 <pos>RB</pos>
 <team>CAR</team>
-<times_drafted>89</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1649</id>
-<adp>8.10</adp>
-<adp_overall>94.1</adp_overall>
-<name>Jeremy Maclin</name>
-<pos>WR</pos>
-<team>BAL</team>
-<times_drafted>120</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1806</id>
-<adp>8.12</adp>
-<adp_overall>95.7</adp_overall>
-<name>Randall Cobb</name>
-<pos>WR</pos>
-<team>GB</team>
-<times_drafted>120</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>1897</id>
-<adp>8.12</adp>
-<adp_overall>95.7</adp_overall>
-<name>Andrew Luck</name>
-<pos>QB</pos>
-<team>IND</team>
-<times_drafted>105</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1827</id>
-<adp>8.12</adp>
-<adp_overall>96.3</adp_overall>
-<name>Jacquizz Rodgers</name>
-<pos>RB</pos>
-<team>TB</team>
-<times_drafted>75</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>11</bye>
 </player>
 <player>
 <id>1006</id>
-<adp>9.01</adp>
-<adp_overall>96.5</adp_overall>
+<adp>8.07</adp>
+<adp_overall>91.3</adp_overall>
 <name>Ben Roethlisberger</name>
 <pos>QB</pos>
 <team>PIT</team>
-<times_drafted>139</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>9</bye>
 </player>
 <player>
-<id>2483</id>
-<adp>9.02</adp>
-<adp_overall>97.9</adp_overall>
-<name>Tyrell Williams</name>
+<id>1649</id>
+<adp>8.12</adp>
+<adp_overall>95.8</adp_overall>
+<name>Jeremy Maclin</name>
 <pos>WR</pos>
-<team>LAC</team>
-<times_drafted>79</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1309</id>
-<adp>9.03</adp>
-<adp_overall>99.0</adp_overall>
-<name>Denver Defense</name>
-<pos>DEF</pos>
-<team>DEN</team>
-<times_drafted>48</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2346</id>
-<adp>9.04</adp>
-<adp_overall>99.8</adp_overall>
-<name>Corey Coleman</name>
-<pos>WR</pos>
-<team>CLE</team>
-<times_drafted>112</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2354</id>
-<adp>9.05</adp>
-<adp_overall>101.2</adp_overall>
-<name>Hunter Henry</name>
-<pos>TE</pos>
-<team>LAC</team>
-<times_drafted>121</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>995</id>
-<adp>9.06</adp>
-<adp_overall>102.0</adp_overall>
-<name>Philip Rivers</name>
-<pos>QB</pos>
-<team>LAC</team>
-<times_drafted>134</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2127</id>
-<adp>9.07</adp>
-<adp_overall>102.5</adp_overall>
-<name>Jeremy Hill</name>
-<pos>RB</pos>
-<team>CIN</team>
-<times_drafted>81</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2061</id>
-<adp>9.08</adp>
-<adp_overall>103.9</adp_overall>
-<name>Marvin Jones</name>
-<pos>WR</pos>
-<team>DET</team>
-<times_drafted>89</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>2445</id>
-<adp>9.10</adp>
-<adp_overall>106.4</adp_overall>
-<name>Jamaal Williams</name>
-<pos>RB</pos>
-<team>GB</team>
-<times_drafted>54</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2377</id>
-<adp>9.12</adp>
-<adp_overall>108.2</adp_overall>
-<name>Dak Prescott</name>
-<pos>QB</pos>
-<team>DAL</team>
-<times_drafted>108</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2138</id>
-<adp>10.01</adp>
-<adp_overall>108.8</adp_overall>
-<name>John Brown</name>
-<pos>WR</pos>
-<team>ARI</team>
-<times_drafted>87</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2441</id>
-<adp>10.01</adp>
-<adp_overall>109.2</adp_overall>
-<name>Samaje Perine</name>
-<pos>RB</pos>
-<team>WAS</team>
-<times_drafted>56</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1315</id>
-<adp>10.03</adp>
-<adp_overall>110.6</adp_overall>
-<name>Kansas City Defense</name>
-<pos>DEF</pos>
-<team>KC</team>
-<times_drafted>53</times_drafted>
+<team>BAL</team>
+<times_drafted>11</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>1327</id>
-<adp>10.03</adp>
-<adp_overall>110.6</adp_overall>
-<name>Seattle Defense</name>
-<pos>DEF</pos>
-<team>SEA</team>
-<times_drafted>98</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2137</id>
-<adp>10.03</adp>
-<adp_overall>110.8</adp_overall>
-<name>Donte Moncrief</name>
+<id>2223</id>
+<adp>9.01</adp>
+<adp_overall>97.0</adp_overall>
+<name>Willie Snead</name>
 <pos>WR</pos>
-<team>IND</team>
-<times_drafted>47</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1664</id>
-<adp>10.03</adp>
-<adp_overall>111.3</adp_overall>
-<name>Matthew Stafford</name>
-<pos>QB</pos>
-<team>DET</team>
-<times_drafted>120</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>2435</id>
-<adp>10.05</adp>
-<adp_overall>112.6</adp_overall>
-<name>Corey Davis</name>
-<pos>WR</pos>
-<team>TEN</team>
-<times_drafted>96</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2029</id>
-<adp>10.06</adp>
-<adp_overall>114.2</adp_overall>
-<name>Rex Burkhead</name>
-<pos>RB</pos>
-<team>NE</team>
-<times_drafted>92</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1368</id>
-<adp>10.07</adp>
-<adp_overall>114.5</adp_overall>
-<name>Jamaal Charles</name>
-<pos>RB</pos>
-<team>DEN</team>
-<times_drafted>116</times_drafted>
+<team>NO</team>
+<times_drafted>5</times_drafted>
 <bye>5</bye>
 </player>
 <player>
-<id>2285</id>
-<adp>10.09</adp>
-<adp_overall>116.8</adp_overall>
-<name>Duke Johnson</name>
-<pos>RB</pos>
-<team>CLE</team>
-<times_drafted>77</times_drafted>
-<bye>9</bye>
+<id>1309</id>
+<adp>9.02</adp>
+<adp_overall>97.9</adp_overall>
+<name>Denver Defense</name>
+<pos>DEF</pos>
+<team>DEN</team>
+<times_drafted>7</times_drafted>
+<bye>5</bye>
 </player>
 <player>
-<id>2431</id>
-<adp>10.09</adp>
-<adp_overall>116.8</adp_overall>
-<name>Adam Thielen</name>
-<pos>WR</pos>
-<team>MIN</team>
-<times_drafted>118</times_drafted>
+<id>1327</id>
+<adp>9.04</adp>
+<adp_overall>100.0</adp_overall>
+<name>Seattle Defense</name>
+<pos>DEF</pos>
+<team>SEA</team>
+<times_drafted>6</times_drafted>
+<bye>6</bye>
+</player>
+<player>
+<id>2154</id>
+<adp>9.05</adp>
+<adp_overall>100.8</adp_overall>
+<name>James White</name>
+<pos>RB</pos>
+<team>NE</team>
+<times_drafted>5</times_drafted>
 <bye>9</bye>
 </player>
 <player>
 <id>1312</id>
-<adp>10.09</adp>
-<adp_overall>117.0</adp_overall>
+<adp>9.08</adp>
+<adp_overall>104.2</adp_overall>
 <name>Houston Defense</name>
 <pos>DEF</pos>
 <team>HOU</team>
-<times_drafted>60</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>7</bye>
 </player>
 <player>
-<id>426</id>
-<adp>10.10</adp>
-<adp_overall>118.1</adp_overall>
-<name>Ted Ginn Jr</name>
-<pos>WR</pos>
-<team>NO</team>
-<times_drafted>113</times_drafted>
-<bye>5</bye>
+<id>1664</id>
+<adp>9.09</adp>
+<adp_overall>105.0</adp_overall>
+<name>Matthew Stafford</name>
+<pos>QB</pos>
+<team>DET</team>
+<times_drafted>7</times_drafted>
+<bye>7</bye>
 </player>
 <player>
-<id>2241</id>
-<adp>10.12</adp>
-<adp_overall>120.3</adp_overall>
-<name>Rishard Matthews</name>
-<pos>WR</pos>
-<team>TEN</team>
-<times_drafted>62</times_drafted>
-<bye>8</bye>
+<id>995</id>
+<adp>9.10</adp>
+<adp_overall>106.0</adp_overall>
+<name>Philip Rivers</name>
+<pos>QB</pos>
+<team>LAC</team>
+<times_drafted>10</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>1987</id>
+<adp>9.10</adp>
+<adp_overall>106.3</adp_overall>
+<name>Eddie Lacy</name>
+<pos>RB</pos>
+<team>SEA</team>
+<times_drafted>10</times_drafted>
+<bye>6</bye>
 </player>
 <player>
 <id>1318</id>
-<adp>11.01</adp>
-<adp_overall>120.6</adp_overall>
+<adp>9.11</adp>
+<adp_overall>106.7</adp_overall>
 <name>New England Defense</name>
 <pos>DEF</pos>
 <team>NE</team>
-<times_drafted>50</times_drafted>
+<times_drafted>7</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>1799</id>
+<adp>10.02</adp>
+<adp_overall>109.6</adp_overall>
+<name>Kyle Rudolph</name>
+<pos>TE</pos>
+<team>MIN</team>
+<times_drafted>9</times_drafted>
+<bye>9</bye>
+</player>
+<player>
+<id>2377</id>
+<adp>10.02</adp>
+<adp_overall>109.7</adp_overall>
+<name>Dak Prescott</name>
+<pos>QB</pos>
+<team>DAL</team>
+<times_drafted>7</times_drafted>
+<bye>6</bye>
+</player>
+<player>
+<id>1368</id>
+<adp>10.02</adp>
+<adp_overall>110.4</adp_overall>
+<name>Jamaal Charles</name>
+<pos>RB</pos>
+<team>DEN</team>
+<times_drafted>5</times_drafted>
+<bye>5</bye>
+</player>
+<player>
+<id>2138</id>
+<adp>10.05</adp>
+<adp_overall>112.6</adp_overall>
+<name>John Brown</name>
+<pos>WR</pos>
+<team>ARI</team>
+<times_drafted>7</times_drafted>
+<bye>8</bye>
+</player>
+<player>
+<id>1354</id>
+<adp>10.08</adp>
+<adp_overall>115.6</adp_overall>
+<name>Matt Forte</name>
+<pos>RB</pos>
+<team>NYJ</team>
+<times_drafted>9</times_drafted>
+<bye>11</bye>
+</player>
+<player>
+<id>2033</id>
+<adp>10.08</adp>
+<adp_overall>115.6</adp_overall>
+<name>Theo Riddick</name>
+<pos>RB</pos>
+<team>DET</team>
+<times_drafted>5</times_drafted>
+<bye>7</bye>
+</player>
+<player>
+<id>2023</id>
+<adp>10.09</adp>
+<adp_overall>116.6</adp_overall>
+<name>Latavius Murray</name>
+<pos>RB</pos>
+<team>MIN</team>
+<times_drafted>8</times_drafted>
 <bye>9</bye>
 </player>
 <player>
 <id>749</id>
-<adp>11.01</adp>
-<adp_overall>121.4</adp_overall>
+<adp>10.10</adp>
+<adp_overall>117.6</adp_overall>
 <name>Eli Manning</name>
 <pos>QB</pos>
 <team>NYG</team>
-<times_drafted>81</times_drafted>
+<times_drafted>7</times_drafted>
 <bye>8</bye>
-</player>
-<player>
-<id>2033</id>
-<adp>11.01</adp>
-<adp_overall>121.5</adp_overall>
-<name>Theo Riddick</name>
-<pos>RB</pos>
-<team>DET</team>
-<times_drafted>87</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>2121</id>
-<adp>11.03</adp>
-<adp_overall>123.2</adp_overall>
-<name>Jordan Matthews</name>
-<pos>WR</pos>
-<team>BUF</team>
-<times_drafted>49</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1354</id>
-<adp>11.04</adp>
-<adp_overall>124.0</adp_overall>
-<name>Matt Forte</name>
-<pos>RB</pos>
-<team>NYJ</team>
-<times_drafted>88</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1802</id>
-<adp>11.05</adp>
-<adp_overall>124.5</adp_overall>
-<name>Andy Dalton</name>
-<pos>QB</pos>
-<team>CIN</team>
-<times_drafted>74</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1250</id>
-<adp>11.05</adp>
-<adp_overall>124.6</adp_overall>
-<name>Arizona Defense</name>
-<pos>DEF</pos>
-<team>ARI</team>
-<times_drafted>69</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2430</id>
-<adp>11.05</adp>
-<adp_overall>124.7</adp_overall>
-<name>Jack Doyle</name>
-<pos>TE</pos>
-<team>IND</team>
-<times_drafted>111</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2449</id>
-<adp>11.05</adp>
-<adp_overall>124.8</adp_overall>
-<name>Cooper Kupp</name>
-<pos>WR</pos>
-<team>LAR</team>
-<times_drafted>47</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2352</id>
-<adp>11.08</adp>
-<adp_overall>128.5</adp_overall>
-<name>Carson Wentz</name>
-<pos>QB</pos>
-<team>PHI</team>
-<times_drafted>50</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2468</id>
-<adp>11.09</adp>
-<adp_overall>129.0</adp_overall>
-<name>Zay Jones</name>
-<pos>WR</pos>
-<team>BUF</team>
-<times_drafted>76</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2023</id>
-<adp>11.10</adp>
-<adp_overall>130.0</adp_overall>
-<name>Latavius Murray</name>
-<pos>RB</pos>
-<team>MIN</team>
-<times_drafted>109</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2278</id>
-<adp>11.11</adp>
-<adp_overall>130.6</adp_overall>
-<name>Kevin White</name>
-<pos>WR</pos>
-<team>CHI</team>
-<times_drafted>51</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1678</id>
-<adp>11.12</adp>
-<adp_overall>131.5</adp_overall>
-<name>Mike Wallace</name>
-<pos>WR</pos>
-<team>BAL</team>
-<times_drafted>56</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1317</id>
-<adp>11.12</adp>
-<adp_overall>131.9</adp_overall>
-<name>Minnesota Defense</name>
-<pos>DEF</pos>
-<team>MIN</team>
-<times_drafted>47</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1657</id>
-<adp>12.01</adp>
-<adp_overall>133.1</adp_overall>
-<name>Kenny Britt</name>
-<pos>WR</pos>
-<team>CLE</team>
-<times_drafted>34</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2469</id>
-<adp>12.02</adp>
-<adp_overall>134.1</adp_overall>
-<name>Marlon Mack</name>
-<pos>RB</pos>
-<team>IND</team>
-<times_drafted>51</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>1320</id>
-<adp>12.02</adp>
-<adp_overall>134.4</adp_overall>
-<name>NY Giants Defense</name>
-<pos>DEF</pos>
-<team>NYG</team>
-<times_drafted>49</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>900</id>
-<adp>12.03</adp>
-<adp_overall>134.8</adp_overall>
-<name>Carson Palmer</name>
-<pos>QB</pos>
-<team>ARI</team>
-<times_drafted>74</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2154</id>
-<adp>12.05</adp>
-<adp_overall>136.7</adp_overall>
-<name>James White</name>
-<pos>RB</pos>
-<team>NE</team>
-<times_drafted>94</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1962</id>
-<adp>12.06</adp>
-<adp_overall>138.1</adp_overall>
-<name>Justin Tucker</name>
-<pos>PK</pos>
-<team>BAL</team>
-<times_drafted>172</times_drafted>
-<bye>10</bye>
 </player>
 <player>
 <id>2112</id>
-<adp>12.09</adp>
-<adp_overall>141.4</adp_overall>
+<adp>11.08</adp>
+<adp_overall>128.0</adp_overall>
 <name>Eric Ebron</name>
 <pos>TE</pos>
 <team>DET</team>
-<times_drafted>156</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>7</bye>
 </player>
 <player>
-<id>2349</id>
-<adp>12.10</adp>
-<adp_overall>142.1</adp_overall>
-<name>Sterling Shepard</name>
-<pos>WR</pos>
-<team>NYG</team>
-<times_drafted>57</times_drafted>
+<id>900</id>
+<adp>11.09</adp>
+<adp_overall>129.2</adp_overall>
+<name>Carson Palmer</name>
+<pos>QB</pos>
+<team>ARI</team>
+<times_drafted>6</times_drafted>
 <bye>8</bye>
 </player>
 <player>
-<id>2427</id>
-<adp>12.10</adp>
-<adp_overall>142.3</adp_overall>
-<name>Cameron Brate</name>
-<pos>TE</pos>
-<team>TB</team>
-<times_drafted>15</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2364</id>
-<adp>12.11</adp>
-<adp_overall>142.7</adp_overall>
-<name>CJ Prosise</name>
-<pos>RB</pos>
-<team>SEA</team>
-<times_drafted>58</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1304</id>
-<adp>12.11</adp>
-<adp_overall>142.8</adp_overall>
-<name>Carolina Defense</name>
-<pos>DEF</pos>
-<team>CAR</team>
-<times_drafted>49</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2488</id>
-<adp>12.12</adp>
-<adp_overall>143.6</adp_overall>
-<name>Kenny Golladay</name>
-<pos>WR</pos>
-<team>DET</team>
-<times_drafted>35</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>438</id>
-<adp>12.12</adp>
-<adp_overall>144.3</adp_overall>
-<name>Stephen Gostkowski</name>
+<id>1962</id>
+<adp>11.11</adp>
+<adp_overall>130.7</adp_overall>
+<name>Justin Tucker</name>
 <pos>PK</pos>
-<team>NE</team>
-<times_drafted>153</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>1324</id>
-<adp>13.02</adp>
-<adp_overall>145.9</adp_overall>
-<name>Pittsburgh Defense</name>
-<pos>DEF</pos>
-<team>PIT</team>
-<times_drafted>45</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2484</id>
-<adp>13.04</adp>
-<adp_overall>147.6</adp_overall>
-<name>Taylor Gabriel</name>
-<pos>WR</pos>
-<team>ATL</team>
-<times_drafted>48</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>2446</id>
-<adp>13.05</adp>
-<adp_overall>148.8</adp_overall>
-<name>O.J. Howard</name>
-<pos>TE</pos>
-<team>TB</team>
-<times_drafted>81</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>150</id>
-<adp>13.05</adp>
-<adp_overall>149.0</adp_overall>
-<name>Matt Bryant</name>
-<pos>PK</pos>
-<team>ATL</team>
-<times_drafted>57</times_drafted>
-<bye>5</bye>
+<team>BAL</team>
+<times_drafted>17</times_drafted>
+<bye>10</bye>
 </player>
 <player>
 <id>1286</id>
-<adp>13.05</adp>
-<adp_overall>149.5</adp_overall>
+<adp>11.12</adp>
+<adp_overall>131.5</adp_overall>
 <name>Jason Witten</name>
 <pos>TE</pos>
 <team>DAL</team>
-<times_drafted>41</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>6</bye>
 </player>
 <player>
 <id>2361</id>
-<adp>13.06</adp>
-<adp_overall>149.6</adp_overall>
+<adp>12.01</adp>
+<adp_overall>132.6</adp_overall>
 <name>Austin Hooper</name>
 <pos>TE</pos>
 <team>ATL</team>
-<times_drafted>87</times_drafted>
+<times_drafted>9</times_drafted>
 <bye>5</bye>
 </player>
 <player>
-<id>2440</id>
-<adp>13.06</adp>
-<adp_overall>149.8</adp_overall>
-<name>Donta Foreman</name>
-<pos>RB</pos>
-<team>HOU</team>
-<times_drafted>59</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>1720</id>
-<adp>13.06</adp>
-<adp_overall>150.4</adp_overall>
-<name>Danny Amendola</name>
-<pos>WR</pos>
-<team>NE</team>
-<times_drafted>47</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2385</id>
-<adp>13.07</adp>
-<adp_overall>151.0</adp_overall>
-<name>Wendell Smallwood</name>
-<pos>RB</pos>
-<team>PHI</team>
-<times_drafted>85</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1891</id>
-<adp>13.07</adp>
-<adp_overall>151.2</adp_overall>
-<name>Dan Bailey</name>
+<id>438</id>
+<adp>12.05</adp>
+<adp_overall>137.3</adp_overall>
+<name>Stephen Gostkowski</name>
 <pos>PK</pos>
-<team>DAL</team>
-<times_drafted>36</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2523</id>
-<adp>13.08</adp>
-<adp_overall>151.7</adp_overall>
-<name>Robby Anderson</name>
-<pos>WR</pos>
-<team>NYJ</team>
-<times_drafted>50</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2382</id>
-<adp>13.09</adp>
-<adp_overall>152.8</adp_overall>
-<name>DeAndre Washington</name>
-<pos>RB</pos>
-<team>OAK</team>
-<times_drafted>44</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1880</id>
-<adp>13.10</adp>
-<adp_overall>154.1</adp_overall>
-<name>Tyrod Taylor</name>
-<pos>QB</pos>
-<team>BUF</team>
-<times_drafted>45</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2470</id>
-<adp>13.11</adp>
-<adp_overall>154.7</adp_overall>
-<name>James Conner</name>
-<pos>RB</pos>
-<team>PIT</team>
-<times_drafted>31</times_drafted>
+<team>NE</team>
+<times_drafted>11</times_drafted>
 <bye>9</bye>
 </player>
 <player>
-<id>1970</id>
-<adp>13.12</adp>
-<adp_overall>155.8</adp_overall>
-<name>Cole Beasley</name>
-<pos>WR</pos>
-<team>DAL</team>
-<times_drafted>45</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2387</id>
-<adp>13.12</adp>
-<adp_overall>155.9</adp_overall>
-<name>Jonathan Williams</name>
-<pos>RB</pos>
-<team>BUF</team>
-<times_drafted>15</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>2444</id>
-<adp>14.01</adp>
-<adp_overall>156.6</adp_overall>
-<name>Deshaun Watson</name>
-<pos>QB</pos>
-<team>HOU</team>
-<times_drafted>16</times_drafted>
-<bye>7</bye>
-</player>
-<player>
-<id>1807</id>
-<adp>14.01</adp>
-<adp_overall>156.7</adp_overall>
-<name>Torrey Smith</name>
-<pos>WR</pos>
-<team>PHI</team>
-<times_drafted>15</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>265</id>
-<adp>14.02</adp>
-<adp_overall>157.7</adp_overall>
-<name>Jay Cutler</name>
-<pos>QB</pos>
-<team>MIA</team>
-<times_drafted>39</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2439</id>
-<adp>14.02</adp>
-<adp_overall>158.1</adp_overall>
-<name>Alvin Kamara</name>
-<pos>RB</pos>
-<team>NO</team>
-<times_drafted>34</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1332</id>
-<adp>14.02</adp>
-<adp_overall>158.1</adp_overall>
-<name>Baltimore Defense</name>
+<id>1315</id>
+<adp>12.08</adp>
+<adp_overall>139.8</adp_overall>
+<name>Kansas City Defense</name>
 <pos>DEF</pos>
-<team>BAL</team>
-<times_drafted>58</times_drafted>
+<team>KC</team>
+<times_drafted>5</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>1919</id>
-<adp>14.02</adp>
-<adp_overall>158.2</adp_overall>
-<name>Mohamed Sanu</name>
-<pos>WR</pos>
-<team>ATL</team>
-<times_drafted>23</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1923</id>
-<adp>14.03</adp>
-<adp_overall>158.9</adp_overall>
-<name>Coby Fleener</name>
+<id>2446</id>
+<adp>12.10</adp>
+<adp_overall>142.2</adp_overall>
+<name>O.J. Howard</name>
 <pos>TE</pos>
-<team>NO</team>
-<times_drafted>36</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1105</id>
-<adp>14.03</adp>
-<adp_overall>159.0</adp_overall>
-<name>Darren Sproles</name>
-<pos>RB</pos>
-<team>PHI</team>
-<times_drafted>54</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1881</id>
-<adp>14.03</adp>
-<adp_overall>159.1</adp_overall>
-<name>Julius Thomas</name>
-<pos>TE</pos>
-<team>MIA</team>
-<times_drafted>56</times_drafted>
+<team>TB</team>
+<times_drafted>6</times_drafted>
 <bye>11</bye>
 </player>
 <player>
 <id>2339</id>
-<adp>14.03</adp>
-<adp_overall>159.1</adp_overall>
+<adp>13.05</adp>
+<adp_overall>148.5</adp_overall>
 <name>Charcandrick West</name>
 <pos>RB</pos>
 <team>KC</team>
-<times_drafted>94</times_drafted>
+<times_drafted>15</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>2518</id>
-<adp>14.04</adp>
-<adp_overall>159.8</adp_overall>
-<name>Christopher Carson</name>
-<pos>RB</pos>
-<team>SEA</team>
-<times_drafted>50</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1916</id>
-<adp>14.04</adp>
-<adp_overall>160.5</adp_overall>
-<name>Kendall Wright</name>
-<pos>WR</pos>
-<team>CHI</team>
-<times_drafted>27</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2347</id>
-<adp>14.05</adp>
-<adp_overall>160.6</adp_overall>
-<name>Josh Doctson</name>
-<pos>WR</pos>
-<team>WAS</team>
-<times_drafted>25</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>251</id>
-<adp>14.05</adp>
-<adp_overall>161.0</adp_overall>
-<name>Mason Crosby</name>
+<id>150</id>
+<adp>13.05</adp>
+<adp_overall>148.7</adp_overall>
+<name>Matt Bryant</name>
 <pos>PK</pos>
-<team>GB</team>
-<times_drafted>24</times_drafted>
-<bye>8</bye>
-</player>
-<player>
-<id>2451</id>
-<adp>14.05</adp>
-<adp_overall>161.1</adp_overall>
-<name>Evan Engram</name>
-<pos>TE</pos>
-<team>NYG</team>
-<times_drafted>20</times_drafted>
-<bye>8</bye>
+<team>ATL</team>
+<times_drafted>6</times_drafted>
+<bye>5</bye>
 </player>
 <player>
 <id>1328</id>
-<adp>14.06</adp>
-<adp_overall>162.0</adp_overall>
+<adp>13.07</adp>
+<adp_overall>151.0</adp_overall>
 <name>LA Rams Defense</name>
 <pos>DEF</pos>
 <team>LAR</team>
-<times_drafted>46</times_drafted>
+<times_drafted>6</times_drafted>
 <bye>8</bye>
 </player>
 <player>
-<id>1323</id>
-<adp>14.06</adp>
-<adp_overall>162.0</adp_overall>
-<name>Philadelphia Defense</name>
-<pos>DEF</pos>
-<team>PHI</team>
-<times_drafted>43</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>1979</id>
-<adp>14.06</adp>
-<adp_overall>162.3</adp_overall>
-<name>Giovani Bernard</name>
+<id>2364</id>
+<adp>13.07</adp>
+<adp_overall>151.2</adp_overall>
+<name>CJ Prosise</name>
 <pos>RB</pos>
-<team>CIN</team>
-<times_drafted>20</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1725</id>
-<adp>14.07</adp>
-<adp_overall>162.8</adp_overall>
-<name>Sam Bradford</name>
-<pos>QB</pos>
-<team>MIN</team>
-<times_drafted>33</times_drafted>
-<bye>9</bye>
-</player>
-<player>
-<id>2304</id>
-<adp>14.07</adp>
-<adp_overall>162.8</adp_overall>
-<name>Tyler Lockett</name>
-<pos>WR</pos>
 <team>SEA</team>
-<times_drafted>45</times_drafted>
+<times_drafted>5</times_drafted>
 <bye>6</bye>
 </player>
 <player>
-<id>2522</id>
-<adp>14.07</adp>
-<adp_overall>163.3</adp_overall>
-<name>Wil Lutz</name>
-<pos>PK</pos>
-<team>NO</team>
-<times_drafted>24</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1303</id>
-<adp>14.08</adp>
-<adp_overall>163.9</adp_overall>
-<name>Buffalo Defense</name>
-<pos>DEF</pos>
-<team>BUF</team>
-<times_drafted>19</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>1334</id>
-<adp>14.11</adp>
-<adp_overall>166.5</adp_overall>
-<name>Atlanta Defense</name>
-<pos>DEF</pos>
-<team>ATL</team>
-<times_drafted>31</times_drafted>
-<bye>5</bye>
-</player>
-<player>
-<id>1390</id>
-<adp>14.11</adp>
-<adp_overall>166.6</adp_overall>
-<name>Matt Prater</name>
-<pos>PK</pos>
-<team>DET</team>
-<times_drafted>22</times_drafted>
+<id>2440</id>
+<adp>13.10</adp>
+<adp_overall>153.6</adp_overall>
+<name>Donta Foreman</name>
+<pos>RB</pos>
+<team>HOU</team>
+<times_drafted>7</times_drafted>
 <bye>7</bye>
 </player>
 <player>
-<id>1957</id>
-<adp>15.01</adp>
-<adp_overall>168.5</adp_overall>
-<name>Blair Walsh</name>
-<pos>PK</pos>
-<team>SEA</team>
-<times_drafted>31</times_drafted>
-<bye>6</bye>
-</player>
-<player>
-<id>593</id>
-<adp>15.01</adp>
-<adp_overall>168.9</adp_overall>
-<name>Sebastian Janikowski</name>
-<pos>PK</pos>
-<team>OAK</team>
-<times_drafted>20</times_drafted>
+<id>1105</id>
+<adp>14.01</adp>
+<adp_overall>157.3</adp_overall>
+<name>Darren Sproles</name>
+<pos>RB</pos>
+<team>PHI</team>
+<times_drafted>6</times_drafted>
 <bye>10</bye>
 </player>
 <player>
-<id>2335</id>
-<adp>15.01</adp>
-<adp_overall>168.9</adp_overall>
-<name>Cairo Santos</name>
-<pos>PK</pos>
-<team>KC</team>
-<times_drafted>19</times_drafted>
-<bye>10</bye>
-</player>
-<player>
-<id>2336</id>
-<adp>15.02</adp>
-<adp_overall>169.8</adp_overall>
-<name>Brandon McManus</name>
-<pos>PK</pos>
-<team>DEN</team>
-<times_drafted>27</times_drafted>
+<id>1919</id>
+<adp>14.06</adp>
+<adp_overall>161.8</adp_overall>
+<name>Mohamed Sanu</name>
+<pos>WR</pos>
+<team>ATL</team>
+<times_drafted>6</times_drafted>
 <bye>5</bye>
 </player>
 <player>
-<id>1195</id>
-<adp>15.02</adp>
-<adp_overall>170.5</adp_overall>
-<name>Adam Vinatieri</name>
+<id>2022</id>
+<adp>15.05</adp>
+<adp_overall>172.6</adp_overall>
+<name>Dustin Hopkins</name>
 <pos>PK</pos>
-<team>IND</team>
-<times_drafted>27</times_drafted>
-<bye>11</bye>
-</player>
-<player>
-<id>2340</id>
-<adp>15.03</adp>
-<adp_overall>170.8</adp_overall>
-<name>Chris Boswell</name>
-<pos>PK</pos>
-<team>PIT</team>
-<times_drafted>30</times_drafted>
-<bye>9</bye>
+<team>WAS</team>
+<times_drafted>5</times_drafted>
+<bye>5</bye>
 </player>
 </adp_data>
 </root>

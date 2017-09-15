@@ -176,9 +176,15 @@ table.sortable thead {
 }
 
 .blogPost article{
-    margin: 25px auto;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 25px 15px;
+    margin: 30px auto;
     width: 90%
-    
+}
+
+.blogPost article p {
+    margin-top: 10px;
 }
 
 .blogPost p,
@@ -203,7 +209,7 @@ table.sortable thead {
 
 @media (min-width: 720px){
     #carousel {
-        width: 75%;
+        width: 100%;
         margin: auto;
     }
     

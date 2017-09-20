@@ -207,7 +207,10 @@ table.sortable thead {
     width: 100%;
 }
 
-
+.pageNumber p{
+    font-size: 2rem;
+    text-align: center;
+}
 /******************* Media Query******************************/
 
 

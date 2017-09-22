@@ -1,6 +1,6 @@
 /******************* Global ******************************/
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@
     width: 75px;
     height: auto;
 }
+
 
 /******* Footer *******/
 
@@ -27,7 +28,7 @@ footer {
     margin: auto;
 }
 
-.socialMedia a{
+.socialMedia a {
     text-decoration: none;
     color: #e61a2c;
 }
@@ -40,56 +41,54 @@ footer {
     margin-left: 10px;
 }
 
+
 /******* Iconmoon *******/
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?v9c1vg');
-  src:  url('../fonts/icomoon.eot?v9c1vg#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?v9c1vg') format('truetype'),
-    url('../fonts/icomoon.woff?v9c1vg') format('woff'),
-    url('../fonts/icomoon.svg?v9c1vg#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?v9c1vg');
+    src: url('../fonts/icomoon.eot?v9c1vg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?v9c1vg') format('truetype'), url('../fonts/icomoon.woff?v9c1vg') format('woff'), url('../fonts/icomoon.svg?v9c1vg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-[data-icon]::before{
+[data-icon]::before {
     font-family: 'icomoon';
     content: attr(data-icon);
 }
 
 .icon-facebook:before {
-  content: "\ea90";
+    content: "\ea90";
 }
 
 .icon-twitter:before {
-  content: "\ea96";
+    content: "\ea96";
 }
 
 .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
 
 /******************* Home page ******************************/
 
+
 /******* Carousel *******/
 
-
-.carousel-item img{
+.carousel-item img {
     max-width: 100%;
     height: 275px;
 }
 
+
 /******* rss feed *******/
 
-
-.news-feed{
+.news-feed {
     text-align: center;
     margin: 20px auto;
     color: #242a5b;
@@ -98,7 +97,7 @@ footer {
 
 /******* PodCast *******/
 
-.podCast h3{
+.podCast h3 {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -110,59 +109,79 @@ footer {
 }
 
 
-
-
 /******************* ProjRank Page ******************************/
-.players{
+
+.players {
     text-align: center;
 }
+
 .playerData {
-    width: 350px;
-    margin: 0 auto 20px;
+    width: 100%;
+    margin: 15px auto 25px;
 }
 
+
 /* Sortable tables */
+
 table.sortable thead {
-    background-color:#eee;
-    color:#666666;
+    background-color: #eee;
+    color: #666666;
     font-weight: bold;
     cursor: default;
 }
 
 #myInput {
-    width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin: 12px 0; /* Add some space below and above input */
+    width: 100%;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin: 12px 0;
+    /* Add some space below and above input */
 }
-.sortByCat{
+
+.sortByCat {
     margin: 25px 0 2px;
     text-align: left;
 }
 
-#myTable th {
+#myTable th,
+#defPlayerRank th{
     text-align: center;
 }
 
-#myTable {
-    border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
-    border: 1px solid #ddd; /* Add a grey border */
-    font-size: 16px; /* Increase font-size */
+#myTable,
+#defPlayerRank {
+    border-collapse: collapse;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 16px;
+    /* Increase font-size */
 }
 
-#myTable th, #myTable td {
-   /* text-align: left;  Left-align text */
-    padding: 2px 3px; /* Add padding */
+#myTable th,
+#myTable td {
+    /* text-align: left;  Left-align text */
+    padding: 2px 3px;
+    /* Add padding */
 }
 
-#myTable tr {
+#myTable tr,
+#defPlayerRank tr{
     /* Add a bottom border to all table rows */
-    border-bottom: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable tr.header,
+#myTable tr:hover,
+#defPlayerRank tr.header,
+#defPlayerRank tr:hover{
     /* Add a grey background color to the table header and on hover */
     background-color: #f1f1f1;
 }
@@ -170,12 +189,12 @@ table.sortable thead {
 
 /******************* Blog Page ******************************/
 
-.blogPost{
+.blogPost {
     text-align: center;
     margin: auto;
 }
 
-.blogPost article{
+.blogPost article {
     border: 1px solid lightgray;
     border-radius: 25px;
     padding: 25px 15px;
@@ -188,41 +207,55 @@ table.sortable thead {
 }
 
 .blogPost p,
-.blogPost h3{
-    margin: 5px 0    
+.blogPost h3 {
+    margin: 5px 0
 }
 
-.blogImg{
+.blogImg {
     width: 80%;
     margin: 15px 0;
 }
 
-.singlePodCast{
+.singlePodCast {
     max-width: 90%;
     margin: auto;
     padding: 30px 0 0;
 }
 
-.blog715 img{
+.blog715 img {
     width: 100%;
 }
 
-.pageNumber p{
+.pageNumber p {
     font-size: 2rem;
     text-align: center;
 }
+
+
 /******************* Media Query******************************/
 
-
-@media (min-width: 720px){
+@media (min-width: 720px) {
+    
     #carousel {
         width: 100%;
         margin: auto;
     }
-    
-    .blog715 img{
-    width: 75%;
+    .blog715 img {
+        width: 75%;
+    }
+    .playerData,
+    #defPlayerRank {
+        width: 100%;
+        margin: 20px auto 50px;
+    }
 }
 
-    
+@media (min-width: 920px) {
+   
+    .playerData,
+    #defPlayerRank {
+        width: 90%;
+        margin: 20px auto 50px;
+        text-align: center;
+    }
 }

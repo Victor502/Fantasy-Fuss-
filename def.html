@@ -2,8 +2,54 @@
 <html lang="en">
 
 <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102592785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102592785-3');
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-102592785-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M2VQP85');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
-    <title>FantasyFuss.com | Player Rankings</title>
+    <title>FantasyFuss.com | Defense Rankings</title>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -12,6 +58,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2VQP85"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
             <a class="navbar-brand" href="index.html"><img class="logo" src="img/TffLogo.png">&nbsp; Fantasy Fuss</a>
@@ -29,19 +79,17 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">Player Rankings</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Defense</a>
+                            <a class="dropdown-item" href="qb.html">QB</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Flex</a>
+                            <a class="dropdown-item" href="rb.html">RB </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">PlaceKicker</a>
+                            <a class="dropdown-item" href="wr.html">WR</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">QuarterBack</a>
+                            <a class="dropdown-item" href="te.html">TE</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Running Back</a>
+                            <a class="dropdown-item active" href="#">D/ST</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">TightEnd</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">WideReciever</a>
+                            <a class="dropdown-item" href="kicker.html">K</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -53,20 +101,20 @@
 
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid row no-gutters">
 
-        <div class="players">
+        <div class="players col-md-12">
             <h1>Defense Rankings</h1>
-            <input type="text" id="defPlayerInput" onkeyup="myFunction()" placeholder="Filter by Team...">
+            <input type="text" id="defPlayerInput" onkeyup="myFunction()" placeholder=" Filter by Team...">
 
             <input type="button" value="Reset Stats" onClick="window.location.reload()" class="btn btn-primary">
-            <p class="sortByCat">Sort by category</p>
+            <p class="sortByCat" style="text-align: center">Sort by category</p>
 
             <table id="defPlayerRank" class="playerData sortable table">
                 <thead>
                     <tr>
                         <th>Rank</th>
-                        <th>Name</th>
+                        <th>Team</th>
                         <th>Pos</th>
                         <th>Team</th>
                         <th>Bye</th>
@@ -75,40 +123,40 @@
                 <tbody>
 
                     <tr class="DEF">
-                        <td class="text-right">1.</td>
-                        <td>Denver Defense</td>
+                        <td>1.</td>
+                        <td>Denver</td>
                         <td>DEF</td>
                         <td>DEN</td>
                         <td>5</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">2.</td>
-                        <td>New England Defense</td>
+                        <td>2.</td>
+                        <td>New England </td>
                         <td>DEF</td>
                         <td>NE</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">3.</td>
-                        <td>Baltimore Defense</td>
+                        <td>3.</td>
+                        <td>Baltimore </td>
                         <td>DEF</td>
                         <td>BAL</td>
                         <td>10</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">4.</td>
-                        <td>Kansas City Defense</td>
+                        <td>4.</td>
+                        <td>Kansas City </td>
                         <td>DEF</td>
                         <td>KC</td>
                         <td>10</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">5.</td>
-                        <td>Miami Defense</td>
+                        <td>5.</td>
+                        <td>Miami </td>
                         <td>DEF</td>
                         <td>MIA</td>
                         <td>11</td>
@@ -116,222 +164,216 @@
 
 
                     <tr class="DEF">
-                        <td class="text-right">6.</td>
-                        <td>Arizona Defense</td>
+                        <td>6.</td>
+                        <td>Arizona </td>
                         <td>DEF</td>
                         <td>ARI</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">7.</td>
-                        <td>Seattle Defense</td>
+                        <td>7.</td>
+                        <td>Seattle </td>
                         <td>DEF</td>
                         <td>SEA</td>
                         <td>6</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">8.</td>
-                        <td>Carolina Defense</td>
+                        <td>8.</td>
+                        <td>Carolina </td>
                         <td>DEF</td>
                         <td>CAR</td>
                         <td>11</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">9.</td>
-                        <td>Buffalo Defense</td>
+                        <td>9.</td>
+                        <td>Buffalo </td>
                         <td>DEF</td>
                         <td>BUF</td>
                         <td>6</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">10.</td>
-                        <td>Chicago Defense</td>
+                        <td>10.</td>
+                        <td>Chicago </td>
                         <td>DEF</td>
                         <td>CHI</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">11.</td>
-                        <td>Cincinnati Defense</td>
+                        <td>11.</td>
+                        <td>Cincinnati </td>
                         <td>DEF</td>
                         <td>CIN</td>
                         <td>6</td>
                     </tr>
 
-
-
-
-
-
-
                     <tr class="DEF">
-                        <td class="text-right">12.</td>
-                        <td>Cleveland Defense</td>
+                        <td>12.</td>
+                        <td>Cleveland </td>
                         <td>DEF</td>
                         <td>CLE</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">13.</td>
-                        <td>Dallas Defense</td>
+                        <td>13.</td>
+                        <td>Dallas </td>
                         <td>DEF</td>
                         <td>DAL</td>
                         <td>6</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">14.</td>
-                        <td>Detroit Defense</td>
+                        <td>14.</td>
+                        <td>Detroit </td>
                         <td>DEF</td>
                         <td>DET</td>
                         <td>7</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">15.</td>
-                        <td>Green Bay Defense</td>
+                        <td>15.</td>
+                        <td>Green Bay </td>
                         <td>DEF</td>
                         <td>GB</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">16.</td>
-                        <td>Houston Defense</td>
+                        <td>16.</td>
+                        <td>Houston </td>
                         <td>DEF</td>
                         <td>HOU</td>
                         <td>7</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">17.</td>
-                        <td>Indianapolis Defense</td>
+                        <td>17.</td>
+                        <td>Indianapolis </td>
                         <td>DEF</td>
                         <td>IND</td>
                         <td>11</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">18.</td>
-                        <td>Jacksonville Defense</td>
+                        <td>18.</td>
+                        <td>Jacksonville </td>
                         <td>DEF</td>
                         <td>JAC</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">19.</td>
-                        <td>Minnesota Defense</td>
+                        <td>19.</td>
+                        <td>Minnesota </td>
                         <td>DEF</td>
                         <td>MIN</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">20.</td>
-                        <td>New Orleans Defense</td>
+                        <td>20.</td>
+                        <td>New Orleans </td>
                         <td>DEF</td>
                         <td>NO</td>
                         <td>5</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">21.</td>
-                        <td>NY Giants Defense</td>
+                        <td>21.</td>
+                        <td>NY Giants </td>
                         <td>DEF</td>
                         <td>NYG</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">22.</td>
-                        <td>NY Jets Defense</td>
+                        <td>22.</td>
+                        <td>NY Jets </td>
                         <td>DEF</td>
                         <td>NYJ</td>
                         <td>11</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">23.</td>
-                        <td>Oakland Defense</td>
+                        <td>23.</td>
+                        <td>Oakland </td>
                         <td>DEF</td>
                         <td>OAK</td>
                         <td>10</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">24.</td>
-                        <td>Philadelphia Defense</td>
+                        <td>24.</td>
+                        <td>Philadelphia </td>
                         <td>DEF</td>
                         <td>PHI</td>
                         <td>10</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">25.</td>
-                        <td>Pittsburgh Defense</td>
+                        <td>25.</td>
+                        <td>Pittsburgh </td>
                         <td>DEF</td>
                         <td>PIT</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">26.</td>
-                        <td>LA Chargers Defense</td>
+                        <td>26.</td>
+                        <td>LA Chargers </td>
                         <td>DEF</td>
                         <td>LAC</td>
                         <td>9</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">27.</td>
-                        <td>San Francisco Defense</td>
+                        <td>27.</td>
+                        <td>San Francisco </td>
                         <td>DEF</td>
                         <td>SF</td>
                         <td>11</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">28.</td>
-                        <td>LA Rams Defense</td>
+                        <td>28.</td>
+                        <td>LA Rams </td>
                         <td>DEF</td>
                         <td>LAR</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">29.</td>
-                        <td>Tampa Bay Defense</td>
+                        <td>29.</td>
+                        <td>Tampa Bay </td>
                         <td>DEF</td>
                         <td>TB</td>
                         <td>11</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">30.</td>
-                        <td>Tennessee Defense</td>
+                        <td>30.</td>
+                        <td>Tennessee </td>
                         <td>DEF</td>
                         <td>TEN</td>
                         <td>8</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">31.</td>
-                        <td>Washington Defense</td>
+                        <td>31.</td>
+                        <td>Washington </td>
                         <td>DEF</td>
                         <td>WAS</td>
                         <td>5</td>
                     </tr>
 
                     <tr class="DEF">
-                        <td class="text-right">32.</td>
-                        <td>Atlanta Defense</td>
+                        <td>32.</td>
+                        <td>Atlanta </td>
                         <td>DEF</td>
                         <td>ATL</td>
                         <td>5</td>
@@ -339,12 +381,8 @@
 
                 </tbody>
             </table>
-
-
         </div>
     </section>
-
-
     <footer>
         <div>
             <div class="socialMedia">

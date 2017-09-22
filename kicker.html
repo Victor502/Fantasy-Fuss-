@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102592785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102592785-3');
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-102592785-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M2VQP85');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>FantasyFuss.com | Kicker Rankings</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/sorttable.js"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2VQP85"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/TffLogo.png">&nbsp; Fantasy Fuss</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog Post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">Player Rankings</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="qb.html">QB</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="rb.html">RB </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="wr.html">WR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="te.html">TE</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="def.html">D/ST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item active" href="#">K</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Message Board (Coming Soon)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="container-fluid row no-gutters">
+        <div class="players col-md-12">
+            <h1>Kicker Rankings</h1>
+            <input type="text" id="defPlayerInput" onkeyup="myFunction()" placeholder=" Filter by Team...">
+
+            <input type="button" value="Reset Stats" onClick="window.location.reload()" class="btn btn-primary">
+            <p class="sortByCat">Sort by category</p>
+
+            <table id="defPlayerRank" class="playerData sortable table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>Bye</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="PK">
+                        <td>1.</td>
+                        <td>Justin Tucker</td>
+                        <td>PK</td>
+                        <td>BAL</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>2.</td>
+                        <td>Matt Bryant</td>
+                        <td>PK</td>
+                        <td>ATL</td>
+                        <td>5</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>3.</td>
+                        <td>Dustin Hopkins</td>
+                        <td>PK</td>
+                        <td>WAS</td>
+                        <td>5</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>4.</td>
+                        <td>Dan Bailey</td>
+                        <td>PK</td>
+                        <td>DAL</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>5.</td>
+                        <td>Stephen Gostkowski</td>
+                        <td>PK</td>
+                        <td>NE</td>
+                        <td>9</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>6.</td>
+                        <td>David Akers</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>7.</td>
+                        <td>Josh Brown</td>
+                        <td>PK</td>
+                        <td>NYG</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>8.</td>
+                        <td>Mason Crosby</td>
+                        <td>PK</td>
+                        <td>GB</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>9.</td>
+                        <td>Billy Cundiff</td>
+                        <td>PK</td>
+                        <td>CLE</td>
+                        <td>9</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>10.</td>
+                        <td>Phil Dawson</td>
+                        <td>PK</td>
+                        <td>ARI</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>11.</td>
+                        <td>Jay Feely</td>
+                        <td>PK</td>
+                        <td>ARI</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>12.</td>
+                        <td>Nick Folk</td>
+                        <td>PK</td>
+                        <td>TB</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>13.</td>
+                        <td>Robbie Gould</td>
+                        <td>PK</td>
+                        <td>SF</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>14.</td>
+                        <td>Shayne Graham</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>12</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>15.</td>
+                        <td>Sebastian Janikowski</td>
+                        <td>PK</td>
+                        <td>OAK</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>16.</td>
+                        <td>Michael Koenen</td>
+                        <td>PK</td>
+                        <td>TB</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>17.</td>
+                        <td>Shane Lechler</td>
+                        <td>PK</td>
+                        <td>HOU</td>
+                        <td>7</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>18.</td>
+                        <td>Rian Lindell</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>19.</td>
+                        <td>Nick Novak</td>
+                        <td>PK</td>
+                        <td>LAC</td>
+                        <td>9</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>20.</td>
+                        <td>Mike Nugent</td>
+                        <td>PK</td>
+                        <td>CIN</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>21.</td>
+                        <td>Josh Scobee</td>
+                        <td>PK</td>
+                        <td>JAC</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>22.</td>
+                        <td>Shaun Suisham</td>
+                        <td>PK</td>
+                        <td>PIT</td>
+                        <td>9</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>23.</td>
+                        <td>Lawrence Tynes</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>24.</td>
+                        <td>Adam Vinatieri</td>
+                        <td>PK</td>
+                        <td>IND</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>25.</td>
+                        <td>Matt Prater</td>
+                        <td>PK</td>
+                        <td>DET</td>
+                        <td>7</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>26.</td>
+                        <td>Dan Carpenter</td>
+                        <td>PK</td>
+                        <td>BUF</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>27.</td>
+                        <td>Josh Huston</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>28.</td>
+                        <td>Aaron Barret</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>29.</td>
+                        <td>Rhys Lloyd</td>
+                        <td>PK</td>
+                        <td>CAR</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>30.</td>
+                        <td>Taylor Mehlhaff</td>
+                        <td>PK</td>
+                        <td>FA</td>
+                        <td>13</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>31.</td>
+                        <td>Brandon Coutu</td>
+                        <td>PK</td>
+                        <td>SEA</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr class="PK">
+                        <td>32.</td>
+                        <td>Garrett Hartley</td>
+                        <td>PK</td>
+                        <td>PIT</td>
+                        <td>9</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/fantasyfuss/?ref=br_rs" target="_blank" title="Facebook"><span class="icon-facebook" data-icon="ea90">
+                </span></a>
+                <a href="https://twitter.com/thefantasyfuss" target="_blank" title="Twitter"><span class="icon-twitter" data-icon="ea96">
+                </span></a>
+            </div>
+        </div>
+
+        <div id="me">
+            <p><a href="http://www.victorhorton.com" target="_blank">&copy; 2017 Victorhorton.com</a></p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap-4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="js/playerRank.js"></script>
+</body>
+
+</html>
